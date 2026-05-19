@@ -1,4 +1,4 @@
-# Project 4: NYC Taxi Trip Analytics
+# Project 4: Pitapuram Taxi Trip Analytics
 
 ## Business Problem
 A ride-hailing company wants to identify peak demand hours, top-earning routes,
@@ -9,7 +9,7 @@ This project uses PARTITION BY, time aggregations, and window functions to answe
 
 | Table | Description | Rows |
 |-------|-------------|------|
-| `zones` | NYC pickup/dropoff zones with borough and type | 10 |
+| `zones` | Pitapuram pickup/dropoff zones with borough and type | 10 |
 | `drivers` | Driver profiles with ratings and vehicle type | 8 |
 | `trips` | Trip records with timestamps, distance, status | 20 |
 | `payments` | Fare breakdown — base, distance, surge, tip | 19 |
@@ -69,5 +69,4 @@ GROUP BY time_bucket;
 3. Run `queries.sql` — all 10 analysis queries
 
 ## Tools
-- PostgreSQL 14+
-- pgAdmin 4 / DBeaver
+- sql
